@@ -1,0 +1,190 @@
+body{
+    background: #E9E9FD;
+}
+
+.login{
+    background-color: #080835;
+    color: white;
+}
+
+.card-img{
+    height: 100vh;
+    width: 100%;
+    min-height: 300px;
+    
+
+}
+ .card-img-overlay{
+    margin-top: 70px;
+    text-align: center;
+ }
+
+ .card-img-overlay .card-title{
+    font-size: 60px;
+ }
+
+ .body2 img{
+    width: 60%;
+    height: 50vh;
+    min-height:300px ;
+    /* background: white; */
+
+ }
+
+ .body2{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 15%;
+    background: white;
+    padding: 10px;
+ }
+
+ .mat-text{
+    width: 60%;
+ }
+
+ .install-text{
+    width: 60%;
+ }
+
+ .develop-text{
+    width: 60%;
+ }
+
+ .repair-text{
+    width: 60%;
+ }
+.delivery-text{
+    width: 60%;
+}
+
+ .main-text{
+    width: 60%;
+ }
+
+ .mat1{
+    gap: 50px;
+ }
+
+ .install1{
+    gap: 50px;
+ }
+
+ .develop1{
+    gap: 50px;
+ }
+
+ .repair1{
+    gap: 50px;
+ }
+
+ .delivery1{
+    gap: 50px;
+ }
+
+ .main1{
+    gap: 50px;
+ }
+
+ .contact h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.con{
+    width: 60%;
+    margin-left: 60px;
+}
+
+.contact{
+    background: #575770;
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    /* padding-top: 3px; */
+}
+
+.contact a{
+    background: #080835;
+    color: white;
+    
+}
+
+.location{
+    margin-left: 100px;
+}
+
+.footer{
+    background: #030237;
+    margin-top: 20px;
+}
+
+.foot-img{
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.footer.foot-img{
+    gap: 100px;
+}
+
+.footer.img2{
+    margin-left: 200px;
+}
+
+.follow{
+    width: 40%;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+.foot{
+    gap: 40px;
+    height: 60px;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.icon .bi{
+    width: 10%;
+}
+
+
+@media only screen and (max-width: 767px){
+    .body2{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 65%;
+        background: white;
+        padding: 10px;
+        text-align: center;
+        /* justify-content: center; */
+     }
+     
+     .mat-text{
+        width: 100%;
+        
+     }
+    
+     .install-text{
+        width: 100%;
+     }
+    
+     .develop-text{
+        width: 100%;
+     }
+    
+     .repair-text{
+        width: 100%;
+     }
+    .delivery-text{
+        width: 100%;
+    }
+    
+     .main-text{
+        width: 100%;
+     }
+}

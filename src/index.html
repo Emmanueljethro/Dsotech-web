@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Dsotech</title>
+</head>
+<body>
+  <div>  
+    <div>
+      <nav class="navbar navbar-expand-lg bg-white navbar-white py-0 fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/image-removebg-preview 2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-0 mb-lg-0 nav-tabs">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#carouselExampleCaptions">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="market.html">MARKET</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="objective.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="contact-us">MARKET</a> -->
+              </li>
+              <!-- <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <button class="btn  dropdown-toggle fw-bold" data-bs-toggle="dropdown" aria-expanded="false">
+                      MARKET
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <button class="login1" type="button" data-bs-toggle="modal" data-bs-target="#enroll" >SIGN IN</button>
+                      <button class="login" type="button" data-bs-toggle="modal" data-bs-target="#enroll1" >LOG IN</button>
+                      <li><a class="dropdown-item" href="#enroll1">LOG IN</a></li>
+                      <li><a class="dropdown-item bg-light text-dark" href="#">SIGN IN</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div> -->
+              <!-- <button class="login" type="button" data-bs-toggle="modal" data-bs-target="#enroll1" >LOG IN</button> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </div> 
+
+   <!-- carousel section -->
+
+   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active ">
+        <img src="images/bg 1 (1).png" class="d-block w-100 h-100" alt="...">
+        <div class="carousel-caption mb-10 d-md-block">
+          <div>
+            <h5>Information Technology and Dependable Energy </h5>
+            <p>Our Dedication informs who we are, how we operate, what matters most, and what we value.</p>
+          </div>
+          <!-- <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">REGISTER NOW</button> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/unsplash_3fuyuCKx2iA (1).png" class="d-block w-100 h-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>Inexpensive and sustainable solar energy option</h5>
+          <p>Desire solar Technology can minimize your energy cost by up to 30% while providing steady, on-demand electricity for your home and company.</p>
+          <!-- <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">REGISTER NOW</button> -->
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div> -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">REGISTRATION</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out the form and start marketing</p>
+              <form>
+                  <div class="mb-3">
+                    <label for="first name" class="col-form-label">
+                      First Name:
+                    </label>
+                    <input type="text" class="form-control" id="first-name"> 
+                  </div>
+                  <div class="mb-3">
+                    <label for="last name" class="col-form-label">
+                      Last Name:
+                    </label>
+                    <input type="text" class="form-control" id="Last-name"> 
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="col-form-label">
+                      Email:
+                    </label>
+                    <input type="text" class="form-control" id="email"> 
+                  </div>
+                <div class="mb-3">
+                  <label for="email" class="col-form-label">
+                  Password:
+                  </label>
+                  <input type="text" class="form-control" id="password"> 
+              </div>
+                  <div class="mb-3">
+                    <label for="email" class="col-form-label">
+                      Confirm Password:
+                    </label>
+                    <input type="text" class="form-control" id="confrim-password"> 
+                  </div>
+                  <div class="mb-3">
+                      <label for="phone" class="col-form-label">
+                      Phone:
+                      </label>
+                      <input type="text" class="form-control" id="phone"> 
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL2 -->
+     <!-- modal -->
+     <div class="modal fade" id="enroll1" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center fs-2" id="exampleModalLabel">LOGIN</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead text-center">sign your user ID to access your solar market</p>
+              <!-- <form id="form">
+                 
+                <div class="mb-3">
+                  <label for="email" class="col-form-label">
+                   Email/Phone:
+                  </label>
+                  <input type="text" class="form-control" id="email"> 
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="col-form-label">
+                  Password:
+                  </label>
+                  <input type="text" class="form-control" id="password"> 
+              </div>
+                 
+              </form> -->
+
+              <form>
+                <!-- <h1>Login</h1> -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <a href="./market.html" type="submit" id="login-btn" class="market-btn">
+                    login
+                  </a>
+                  <!-- <button type="submit" data-bs-target="" id="login">Login</button> -->
+      
+                  <!-- <button type="button" id="login-btn" class="btn btn-primary">Log in</button> -->
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES section  -->
+    <div class="text-center fs-1 fw-bold py-3" id="service">
+      <p>SERVICES</p>
+    </div>
+    <section class="p-2">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-light text-dark">
+              <div class="card bg-light text-dark">
+                <div>
+                  <h3 class="card-title mb-2 p-3">
+                     Solar Installation
+                  </h3>
+                  <p class="card-text mb-3">
+                    Solar installations are a sustainable and cost-effective way to generate electricity for homes and businesses.                              </p>
+                              
+                </div>
+              </div>
+          </div>
+          </div>
+            <div class="col-md">
+              <div class="card bg-light text-dark">
+                <div class="card bg-light text-dark">    
+                  <div>
+                    <h3 class="card-title mb-2 p-2">
+                      Solar Material
+                    </h3>
+                    <p class="card-text mb-2">
+                      Solar materials are used in the construction of solar panels and other solar energy systems to capture and convert sunlight into usable electricity.                              </p>
+                             
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md">
+                  <div class="card bg-light text-dark">
+                      <div class="card bg-light text-dark">
+                         
+                          <div>
+                              <h3 class="card-title mb-2 p-2">
+                                Solar Repair
+                              </h3>
+                              <p class="card-text mb-2">
+                                Solar repair refers to the maintenance and repair of solar panels and other components of a solar energy system. Solar panels are designed to last for several decades.                              </p>
+                             
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <button class=" btn read-more" type="button">READ MORE</button>
+  </section>
+
+  <!-- <img src="images/Vector 4.png" class="line" alt=""> -->
+
+  <!-- about section  -->
+
+
+  <section id="about-us" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="images/unsplash_5fNmWej4tAA (1).png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md py-5">
+                <h2>ABOUT US</h2>
+                <p class="fs-4">
+                  Desire Solar Company offers mechanical mounting service for ground and rooftop photovoltaic power plants to clients across the world. We provide premium service   at affordable rates for solar park projects with power production ranging from 100 KWP to 100 MWP.                </p>
+                <a href="#" class="btn btn-light mt-3">
+                   <i class="bi bi-chevron-right"></i> Read More
+                </a>
+            </div>
+        </div>
+    </div>
+  </section>
+    <!-- portfolio section  -->
+    <div class="portfolio hidden " id="portfolio">
+      <h2>PORTFOLIO</h2>
+      <div>
+        <img class="my-3" src="images/IMG-20230321-WA0021 1 (1).png" alt="">
+        <img class="my-3" src="images/IMG-20230321-WA0013 1 (1).png" alt="">
+        <img class="my-3" src="images/IMG-20230321-WA0018 1 (1).png" alt="">
+        <img class="my-3" src="images/image 10 (1).png" alt="">
+        <img class="my-3" src="images/image 7 (1).png" alt="">
+        <img class="my-3" src="images/image 8 (1).png" alt="">
+      </div>
+
+      <a href="#" class="btn btn-light mt-3">
+        Veiw More <i class="bi bi-arrow-right-short"></i>
+     </a>
+    </div>
+    
+    <!-- our obj section  -->
+
+    <div class="objective text-center mt-5">
+      <h2>OUR PRIMARY OBJECTIVE</h2>
+      <div class="our-obj mt-3">
+        <div class="bg-light my-5">
+          <h3>INNOVATION</h3>
+          <img src="images/inova1 1.png" alt="">
+        </div>
+        <div class="bg-light my-5">
+          <h3>ENERGY SAVINGS</h3>
+          <img src="images/ENERGY 1.png" alt="">
+        </div>
+        <div class="bg-light my-5">
+          <h3>PERFORMANCE</h3>
+          <img src="images/news 1.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+      <!-- contact us section  -->
+      <div class="contact" id="contact-us">
+        <div>
+          <h2>CONTACT US</h2>
+        </div>
+        <div class="con-location gap-4">
+          <div class="con">
+            <div class="contact-card mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your name">
+            </div>
+            <div class="contact-card mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="contact-card mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <a href="#" class="btn btn-light mt-3 px-5">
+              Submit
+            </a>
+          </div>
+          <div class="location mt-4">
+            <div>
+              <h4>Location</h4>
+              <p>
+                Head Office 2, Payne Close,Behind <br> Trumed Pharmacy,Off <br> State Hospital <br> Road,Ring Road P.O. <br> Box 1338,Ibadan, <br> Nigeria.
+              </p>
+            </div>
+            <div>
+              <h4>Us Office</h4>
+              <p>
+                13507, <br> William Beanes Road, <br> Upper Malboro, <br> MD 2077
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer  -->
+      <div class="footer">
+        <div class="foot-img g-4">
+          <img src="images/image-removebg-preview 2 (1).png" alt="">
+          <div class="foot d-flex align-items-center bg-light">
+            <div class="follow bg-dark text-light">
+              <p>Follow us</p>
+            </div>
+            <div class="icon bg-light">
+              <i class="bi bi-whatsapp fs-1 px-2"></i>
+              <i class="bi bi-facebook fs-1 px-2"></i>
+              <i class="bi bi-instagram fs-1 px-2"></i>
+              <i class="bi bi-twitter fs-1 px-2"></i>
+              <i class="bi bi-youtube fs-1 px-2"></i>
+            </div>
+          </div>
+          <!-- <img src="images/follow us.png" class="img2" alt=""> -->
+        </div>
+        <div class="footered text-light g-4 px-5 justify-content-between mt-5">
+          <div class="mt-5">
+            <h3>SERVICES</h3>
+            <h6>Solar Repair</h6>
+            <h6>Solar Materials</h6>
+            <h6>Solar Delivery</h6>
+            <h6>Solar Installation</h6>
+            <h6>Solar Maintainance</h6>
+            <h6>Project Development</h6>
+          </div>
+          <div class="mt-5">
+            <h3>Company</h3>
+            <h6>About us</h6>
+            <h6>Market</h6>
+            <h6>Conatact us</h6>
+            <h6>services</h6>
+            <h6>Portfolio</h6>
+          </div>
+          <div class="mt-5">
+            <h3>Contact</h3>
+            <h6 class="d-flex">
+              <i class="bi bi-geo-alt-fill"></i>
+              <p>
+              Head Office 2, <br> Payne Close,Behind <br> Trumed Pharmacy,Off <br> State Hospital <br> Road,Ring Road P.O. <br> Box 1338,Ibadan, <br> Nigeria.
+            </p></h6>
+            <h6 class="d-flex">
+              <i class="bi bi-telephone"></i>
+              <p>08160790579</p>
+            </h6>
+            <h6 class="d-flex">
+              <i class="bi bi-envelope-fill"></i>
+              <p>dsotech@gmail.com</p>
+            </h6>
+          </div>
+        </div>
+
+        <div class="text-dark text-center fs-6 p-1 bg-light mt-5">
+          <p>Copyright  &copy;     DST 2023,  All Rights Reserved</p>
+        </div>
+      </div>
+
+
+  </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   <script src="index.js"></script>
+</body>
+</html>

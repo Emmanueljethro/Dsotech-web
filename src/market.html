@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="market.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Dsotech</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-white navbar-white py-0 fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/image-removebg-preview 2.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-0 mb-lg-0 nav-tabs">
+                  <!-- <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="market.html">MARKET</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="objective.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">CONTACT US</a>
+                  </li>
+                  <!-- <button class="login" type="button" data-bs-toggle="modal" data-bs-target="#enroll1" >LOG IN</button> -->
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- header   -->
+        <div class="header d-lg-flex d-block mx-auto">
+            <div class=" m-5">
+                <p class="location">Location</p>
+                <select class="state" name="" id="">
+                    <option value="abuja" class="d-none"></option>
+                    <option value="abuja">Abia</option>
+                    <option value="abuja">Adamawa</option>
+                    <option value="abuja">Akwa Ibom</option>
+                    <option value="abuja">Anambra</option>
+                    <option value="abuja">Bauchi</option>
+                    <option value="abuja">Bayelsa</option>
+                    <option value="abuja">Benue</option>
+                    <option value="abuja">Borno</option>
+                    <option value="abuja">Cross</option>
+                    <option value="abuja">Delta</option>
+                    <option value="abuja">Ebonyi</option>
+                    <option value="abuja">Edo</option>
+                    <option value="abuja">Ekiti</option>
+                    <option value="abuja">Enugu</option>
+                    <option value="abuja">Gombe</option>
+                    <option value="abuja">Imo</option>
+                    <option value="abuja">Jigawa</option>
+                    <option value="abuja">Kaduna</option>
+                    <option value="abuja">Kano</option>
+                    <option value="abuja">Kastina</option>
+                    <option value="abuja">Kebbi</option>
+                    <option value="abuja">Kogi</option>
+                    <option value="abuja">Kwara</option>
+                    <option value="abuja">Lagos</option>
+                    <option value="abuja">Nasarawa</option>
+                    <option value="abuja">Niger</option>
+                    <option value="abuja">Ogun</option>
+                    <option value="abuja">Ondo</option>
+                    <option value="abuja">Osun</option>
+                    <option value="abuja">Oyo</option>
+                    <option value="abuja">Plateau</option>
+                    <option value="abuja">Rivers</option>
+                    <option value="abuja">Sokoto</option>
+                    <option value="abuja">Taraba</option>
+                    <option value="abuja">Yobe</option>
+                    <option value="abuja">Zamfara</option>
+                    <option value="abuja">FCT Abuja</option>
+                </select>
+            </div>
+            <div class="name">
+                <p>Name</p>
+                <input type="text">
+            </div>
+            <div class="phone">
+                 <p>Phone Number</p>
+                <input type="text">
+            </div>
+            <div class="new">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#selectItems" >New Items +</button>
+            </div>
+        </div>
+
+        <!-- <div>
+            <table class="table mt-5">
+                <thead>
+                  <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">ITEMS</th>
+                    <th scope="col">POWER-RATING</th>
+                    <th scope="col">QUANTITY</th>
+                    <th scope="col">ACTION</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td class="btn"><button>DELETE</button></td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td class="btn"><button>DELETE</button></td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry</td>
+                    <td>@twitter</td>
+                    <td class="btn"><button>DELETE</button></td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry</td>
+                    <td>@twitter</td>
+                    <td class="btn"><button>DELETE</button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div> -->
+
+
+        <div class="">
+          <table class="table mt-5" id="table">
+              <thead>
+                <tr>
+                  <th scope="col">S/N</th>
+                  <th scope="col">ITEMS</th>
+                  <th scope="col">POWER-RATING</th>
+                  <th scope="col">QUANTITY</th>
+                  <th scope="col">ACTION</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td class="btn"><button>DELETE</button></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td class="btn"><button>DELETE</button></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry</td>
+                  <td>@twitter</td>
+                  <td class="btn"><button>DELETE</button></td>
+
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry</td>
+                  <td>@twitter</td>
+                  <td class="btn"><button>DELETE</button></td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+
+        <p id="storage"></p>
+      
+         <div class="mt-5 text-center">
+          <h1>SUMMARY</h1>
+         </div>
+
+         <div class="item-sum mt-5 ml-5">
+          <h5 >QUANTITY = <span id="quant"></span></h5>
+          <h5 >POWER-RATING = <span id="power"></span></h5>
+          <h5 >TOTAL-ENERGY (Q*C) = <span id="total"></span></h5>
+          <h5 id="cost">COST =</h5>
+          <h5 id="totalCost">TOTAL COST FOR THE ITEMS =</h5>
+          <h5 id="work">WORKMANSHIP =</h5>
+         </div>
+        
+         <div class="submit mt-2 text-center">
+            <button type="button" class="px-4 py-2 m-5 fs-6 rounded-3" data-bs-toggle="modal" data-bs-target="#congrat">SUBMIT</button>
+         </div>
+        
+        <!-- modal -->
+        <div class="modal fade" id="selectItems" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title text-light" id="exampleModalLabel">SELECT ITEMS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- <form class="text-light"> -->
+                        <form class="text-light mt-0 justify-content-between" action="input">
+                          <div class="row mt-4" id="input">
+                            <div>
+                                <label for="items" class="col-form-label">
+                                ITEMS:
+                                </label>
+                                <!-- <select name="items" class="px-5" id="">
+                                  <option value="items" class="py-5">BULB</option>
+                                </select> -->
+                                
+                                <input type="text" class="form-control" id="items"> 
+                            </div>
+                            <div class="mb-3">
+                                <label for="powerRating" class="col-form-label">
+                                POWER-RATING:
+                                </label>
+                                <input type="number" class="form-control px-5" id="powerRating"> 
+                                <label for="quantity" class="col-form-label">
+                                    QUANTITY:
+                                </label>
+                                <input type="number" class="form-control" id="quantity"> 
+                        </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <div id="add" class="row mt-3">
+                      <div class="col-md-12 text-center">
+                          <button  type="button" id="btn-data" class="btn btn-success bg-success mb-3" style="background-color: blue;" onclick="addOnClick()"><i class="fa fa-plus"></i> Add</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+        </div>
+
+        
+          
+      </div>
+
+      <div class="modal fade" id="congrat" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn-close bg-light rounded-5 m-1 p-2" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+                <div class="modal-header">
+                  <div>
+                  <img src="images/desktop-wallpaper-black-and-blue-for-mobile-black-black-blue-cube-removebg-preview 2.png" class="desktop" alt="">
+                </div>
+                <!-- <button type="button" class="btn-close bg-light rounded-5" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                   <p class="text-light fs-3 text-center fw-bold">CONGRATULATIOS!</p>
+                   <P class="text-center text-light fs-6">This  Operation Completed Successfully</P>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn1 text-center" data-bs-dismiss="modal">Continue</button>
+                <!-- <div id="add" class="row mt-3">
+                  <div class="col-md-12 text-center">
+                      <button  type="button" id="btn-data" class="btn btn-success bg-success mb-3" style="background-color: blue;" onclick="addOnClick()"><i class="fa fa-plus"></i> Add</button>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+        </div>
+        
+    </div>
+
+        
+  
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="market.js"></script>
+</html>

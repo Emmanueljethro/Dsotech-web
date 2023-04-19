@@ -1,0 +1,232 @@
+.navbar-nav{
+    font-weight: 700;
+    color: #000000;
+}
+
+body{
+    background: #E9E9FD;
+}
+
+.location{
+    /* margin-top: 10%; */
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.loc{
+    margin-left: 200px;
+}
+
+.state{
+    margin-left: 50px;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+
+.header{
+    /* display: flex; */
+    margin-top: 10%;
+    gap: 80px;
+    align-items: center;
+}
+
+.name  input{
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.name p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.phone  input{
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.phone p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.new .btn{
+    padding: 10px;
+    border: #000000;
+    background: white;
+    border-radius: 10px;
+
+}
+
+.new{
+    margin-top: 3%;
+}
+
+.new text{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.new :hover{
+    background: #000000;
+    color: white;
+}
+
+/* .modal-title{
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* justify-items: center;
+} */ 
+
+
+.modal-content{
+    background: #030237;
+}
+
+.table{
+    margin-left: 100px;
+    margin-right: 60px;
+    background: white;
+    /* table-layout: auto; */
+    width: 80%;
+    row-gap: 40px;
+}
+
+/* .table tbody :hover{
+    background: gray;
+    color: white;
+} */
+
+/* .table .btn :hover{
+    background: #000000;
+    color: white;
+
+} */
+
+.table thead{
+    gap: 40px;
+}
+
+.item-sum{
+    margin-left: 100px;
+}
+
+.submit :hover{
+    background: #000000;
+    color: white;
+}
+
+.desktop{
+    width: 30%;
+    justify-items: center;
+    margin-left: 180px;
+}
+
+.btn1{
+    justify-items: center;
+    margin-right: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btn1:hover{
+    background: #000000;
+    color: white;
+    
+}
+
+/* .modal{
+    width: 40%;
+} */
+
+
+@media only screen and (max-width: 767px){
+    .header{
+        /* display: flex; */
+        margin-top: 30%;
+        /* gap: 80px; */
+        /* align-items: center; */
+        margin-left: 0px;
+    } 
+
+    .location{
+        /* margin-top: 10%; */
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .state{
+        margin-left: 0px;
+        padding: 10px;
+        padding-right: 20px;
+        border-radius: 10px;
+    }
+
+    .name  input{
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 40px;
+        width: 80%;
+    
+    }
+    
+    .name p{
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 40px;
+    }
+    
+    .phone  input{
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 40px;
+        width: 80%;
+
+    }
+    
+    .phone p{
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 40px;
+
+    }
+
+    .loc{
+        margin-left: 0px;
+    }
+
+    .new .btn{
+        padding: 10px;
+        border: #000000;
+        background: white;
+        border-radius: 10px;
+        margin-left: 40px;
+    
+    }
+
+    .new :hover{
+        background: #000000;
+        color: white;
+    }
+
+    .table{
+        margin-left: 0px;
+        margin-right: 0px;
+        background: white;
+        /* table-layout: auto; */
+        width: 60%;
+        row-gap: 0px;
+    }
+
+    .item-sum{
+        margin-left: 10px;
+    }
+    
+}
